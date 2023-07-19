@@ -15,5 +15,6 @@
  7. String Functions
  8. Conditional Statements
  9. Alias
+ 10. Dealign with null values
 
 Dataset link: https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx
