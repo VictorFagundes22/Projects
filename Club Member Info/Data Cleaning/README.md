@@ -1,5 +1,5 @@
 ![Banner](<Banner Data Cleaning Club.jpg>)
-# In this project, we will 
+# In this project, we will:
 
 **1.** Check for duplicate entries and remove them.
 
