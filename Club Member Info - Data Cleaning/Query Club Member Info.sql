@@ -1,16 +1,3 @@
-/*
-In this project, we will 
-
-1. Check for duplicate entries and remove them.
-2. Remove extra spaces and/or other invalid characters.
-3. Separate or combine values as needed.
-4. Ensure that certain values (age, phone...) are within a certain range.
-5. Correct incorrect spelling or inputted data.
-6. Adding new and relevant rows or columns to the new dataset.
-7. Check for null or empty values.
-8. Standardize the dataset.
-*/
-
 -- Removing the last digit from ages that have more than 105 year old. 277 -> 27.
 UPDATE club_member_info
 SET AGE = left(age, len(age) -1) WHERE AGE > 105
