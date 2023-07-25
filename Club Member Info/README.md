@@ -1,4 +1,4 @@
-# Club Member Info Project
+![Banner](Banner Club Member Info.jpg)
 
 ## In this project we are going to:
 
@@ -11,5 +11,3 @@
 **4.** Make a data visualization using Power BI.
 
 **5.** Use PowerPoint to create a storytelling presentation.
-
-![Banner](Banner Club Member Info.jpg)
