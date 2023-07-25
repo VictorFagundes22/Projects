@@ -12,4 +12,4 @@
 
 **5.** Use PowerPoint to create a storytelling presentation.
 
-![Logo](C:\Users\victo\Documents\Foto de perfil para linkedin redonda disponível para trabalhar laranja e branco.jpg)
+![Logo](https://ibb.co/vB2g911)
