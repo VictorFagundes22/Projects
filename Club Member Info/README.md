@@ -12,4 +12,4 @@
 
 **5.** Use PowerPoint to create a storytelling presentation.
 
-![Laogo](teste.jpg)
+![Banner](Banner Club Member Info.jpg)
