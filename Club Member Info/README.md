@@ -12,4 +12,4 @@
 
 **5.** Use PowerPoint to create a storytelling presentation.
 
-![Laogo](C:\Users\victo\Documents\Data Analytics\Repository\Projects\Club Member Info\teste.jpg)
+![Laogo](teste.jpg)
