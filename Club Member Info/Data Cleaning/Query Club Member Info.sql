@@ -85,61 +85,37 @@ UPDATE club_member_info
 SET state = TRIM(PARSENAME(REPLACE(full_address, ',','.'), 1))
 
  -- Cleaning misspelling of state names.
- UPDATE
-	club_member_info
-SET 
-	state = 'kansas'
-WHERE 
-	state = 'kansus';
+ UPDATE	club_member_info
+SET state = 'kansas'
+WHERE state = 'kansus';
 
-UPDATE
-	club_member_info
-SET 
-	state = 'district of columbia'
-WHERE 
-	state = 'districts of columbia';
+UPDATE club_member_info
+SET state = 'district of columbia'
+WHERE state = 'districts of columbia';
 
-UPDATE
-	club_member_info
-SET 
-	state = 'north carolina'
-WHERE 
-	state = 'northcarolina';
+UPDATE club_member_info
+SET state = 'north carolina'
+WHERE state = 'northcarolina';
 
-UPDATE
-	club_member_info
-SET 
-	state = 'california'
-WHERE 
-	state = 'kalifornia';
+UPDATE club_member_info
+SET state = 'california'
+WHERE state = 'kalifornia';
 
-UPDATE
-	club_member_info
-SET 
-	state = 'texas'
-WHERE 
-	state = 'tejas';
+UPDATE club_member_info
+SET state = 'texas'
+WHERE state = 'tejas';
 
-UPDATE
-	club_member_info
-SET 
-	state = 'texas'
-WHERE 
-	state = 'tej+f823as';
+UPDATE club_member_info
+SET state = 'texas'
+WHERE state = 'tej+f823as';
 
-UPDATE
-	club_member_info
-SET 
-	state = 'tennessee'
-WHERE 
-	state = 'tennesseeee';
+UPDATE club_member_info
+SET state = 'tennessee'
+WHERE state = 'tennesseeee';
 
-UPDATE
-	club_member_info
-SET 
-	state = 'new york'
-WHERE 
-	state = 'newyork';
+UPDATE club_member_info
+SET state = 'new york'
+WHERE state = 'newyork';
 
 -- Seeing how many e-mails are duplicated.
 SELECT COUNT(*), email FROM club_member_info GROUP BY email HAVING COUNT(*) > 1
@@ -149,3 +125,7 @@ DELETE FROM club_member_info WHERE member_id in (
 	SELECT c2.member_id FROM club_member_info c1
 	join club_member_info c2 on c1.email = c2.email
 	WHERE c1.member_id < c2.member_id)
+
+-- Updating job_titles that don't have register to null.
+UPDATE club_member_info
+SET job_title = null where job_title = ''
