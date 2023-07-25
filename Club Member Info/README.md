@@ -1,6 +1,7 @@
 ![Banner](<Club Member Info.jpg>)
 
-## In this project we are going to:
+<p style="text-align: center;">
+# In this project we are going to:
 
 **1.** Use a Excel file to get the data.
 
@@ -11,3 +12,4 @@
 **4.** Make a data visualization using Power BI.
 
 **5.** Use PowerPoint to create a storytelling presentation.
+</p>
