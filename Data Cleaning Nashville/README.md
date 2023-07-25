@@ -8,6 +8,7 @@
 ## Some topics seen in this project:
  **1.** DDL
  **2.** DML
+ 
  **3.** DQL
  **4.** Convert data type
  **5.** Join
