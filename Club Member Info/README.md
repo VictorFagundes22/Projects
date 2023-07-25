@@ -12,4 +12,4 @@
 
 **5.** Use PowerPoint to create a storytelling presentation.
 
-![Logo](https://ibb.co/vB2g911)
+![Logo](C:\Users\victo\Documents\Data Analytics\Repository\Projects\Club Member Info\teste.jpg)
