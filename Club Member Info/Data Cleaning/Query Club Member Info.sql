@@ -129,3 +129,7 @@ DELETE FROM club_member_info WHERE member_id in (
 -- Updating job_titles that don't have register to null.
 UPDATE club_member_info
 SET job_title = null where job_title = ''
+
+-- Removing the f10 column
+ALTER TABLE club_member_info
+DROP COLUMN F10
