@@ -1,4 +1,4 @@
-![Banner](<Club Member Info.jpg>)
+![Banner](Banner.jpg)
 
 # In this project we are going to:
 
