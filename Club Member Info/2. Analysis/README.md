@@ -25,7 +25,19 @@
 **7.** What is the average age of members that are single?
     **Answer:** 42 years old.
 
-**8.** Is there some action that we can take with these data?
+**8.** Is there some members that is not from the USA?
+    **Answer:** 8 members.
+
+**9.** How many members are in every age group?
+    **Answer:** 10 -> 19 = 40
+        20 -> 30 = 393
+        31 -> 40 = 533
+        41 -> 50 = 498
+        51 -> 60 = 368
+        61 -> 70 = 164
+        null = 4
+
+**10.** Is there some action that we can take with these data?
     **Answer:**
         1. Promote events for single members with the target age of 42 and promote events for married members with the target age of 41.
 		2. Create an event for the biggest 10 cities in each city, so the members from each city can interact with each other more easily.

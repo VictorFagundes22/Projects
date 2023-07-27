@@ -10,12 +10,15 @@ SET full_name = case when charindex('???',full_name) = 1 then RIGHT(full_name, L
 UPDATE club_member_info
 SET full_name = trim(full_name)
 
+-- Renaming the column 'marital_status'
+EXEC sp_rename 'dbo.club_member_info.marital_status', 'marital_status', 'COLUMN';
+
 -- Putting upper case in every column with letters.
 UPDATE club_member_info
 SET full_name = UPPER(full_name)
 
 UPDATE club_member_info
-SET martial_status = UPPER(martial_status)
+SET marital_status = UPPER(marital_status)
 
 UPDATE club_member_info
 SET email = UPPER(email)
@@ -40,18 +43,18 @@ ADD last_name NVARCHAR(255)
 UPDATE sql_db_1..club_member_info
 SET last_name = substring(trim(full_name),charindex(' ', trim(full_name))+1, LEN(full_name))
 
--- Removing extra spaces from martial_status.
+-- Removing extra spaces from marital_status.
 UPDATE club_member_info
-SET martial_status = trim(martial_status)
+SET marital_status = trim(marital_status)
 
--- Null values for lines that do not have any register from martial_status.
+-- Null values for lines that do not have any register from marital_status.
 UPDATE club_member_info
-SET martial_status = case when martial_status = '' then null else martial_status end
+SET marital_status = case when marital_status = '' then null else marital_status end
 
 -- Updating 4 records with wrong spelling.
 
 UPDATE club_member_info
-SET martial_status = 'DIVORCED' WHERE martial_status = 'DIVORED'
+SET marital_status = 'DIVORCED' WHERE marital_status = 'DIVORED'
 
 -- Removing extra spaces from email.
 UPDATE club_member_info
