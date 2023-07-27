@@ -2,12 +2,12 @@
 
 # In this project we are going to:
 
-**1.** Use a Excel file to get the data.
+**1.** Use a Excel file to get the data. [v]
 
-**2.** Clean the data with SQL.
+**2.** Clean the data with SQL. [v]
 
-**3.** Analyze the data making some business questions.
+**3.** Analyze the data making some business questions. [v]
 
-**4.** Make a data visualization using Power BI.
+**4.** Make a data visualization using Power BI. [v]
 
-**5.** Use PowerPoint to create a storytelling presentation.
+**5.** Use PowerPoint to create a storytelling presentation. [v]
