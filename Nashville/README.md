@@ -1,33 +1,13 @@
 ![Banner](Nashville.jpg)
 
-# This project in SQL has as the main objective:
- **1.** Converting data type; 
+# In this project we are going to:
 
- **2.** Populating correctly the address data where is null; 
+**1.** Use a Excel file to get the data.
 
- **3.** Breaking out address into individual columns (address, city, state);
+**2.** Clean the data with SQL.
 
- **4.** Change Y and N to Yes and No in "Sold as Vacant" field;
- 
- **5.** Removing duplicated lines
+**3.** Analyze the data making some business questions.
 
-## Some topics seen in this project:
- **1.** DDL
+**4.** Make a data visualization using Power BI.
 
- **2.** DML
-
- **3.** DQL
-
- **4.** Convert data type
-
- **5.** Join
-
- **6.** Filter records
-
- **7.** String Functions
-
- **8.** Conditional Statements
-
- **9.** Alias
-
- **10.** Null values
+**5.** Use PowerPoint to create a storytelling presentation.

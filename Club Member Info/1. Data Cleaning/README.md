@@ -1,5 +1,5 @@
 ![Banner](<Banner Data Cleaning Club.jpg>)
-# In this project, we will:
+# In this part, we will:
 
 **1.** Check for duplicate entries and remove them.
 
@@ -17,7 +17,7 @@
 
 **8.** Standardize the dataset.
 
-## Some topics seen in this project:
+## Some topics seen in this part:
  **1.** DDL
 
  **2.** DML
