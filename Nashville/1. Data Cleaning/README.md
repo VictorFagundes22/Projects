@@ -1,3 +1,5 @@
+![Banner](Banner.jpg)
+
 # This project in SQL has as the main objective:
  **1.** Converting data type; 
 
