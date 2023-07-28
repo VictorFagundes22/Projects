@@ -2,14 +2,17 @@
 
 **1.** What is the average age from the member's club?
     **Answer:** 
+
         41 years old.
 
 **2.** Most of the members are married or single?
     **Answer:** 
+
         Married.
 
 **3.** What is the most common job?
     **Answer:** 
+
         Senior Sales Associate.
 
 **4.** What is the number of members per city?
@@ -27,18 +30,22 @@
 
 **5.** Most of the the members that have between 35 and 45 years old are married or single?
     **Answer:**
+
         Married
 
 **6.** What is the average age of members that are married?
     **Answer:**
+
         41 years old.
 
 **7.** What is the average age of members that are single?
     **Answer:**
+
         42 years old.
 
 **8.** Is there some members that is not from the USA?
     **Answer:**
+    
         8 members.
 
 **9.** How many members are in every age group?
