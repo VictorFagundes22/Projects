@@ -120,3 +120,11 @@ WHERE ROW > 1
 
 ALTER TABLE SQL_DB_1..NASHVILLE
 DROP COLUMN OWNERADDRESS1, TAXDISTRICT, PROPERTYADDRESS, SALEDATE
+
+-- Standardizing the LandUse field.
+-- Padronizando o campo LandUse.
+UPDATE Nashville
+SET LandUse = 'VACANT RESIDENTIAL LAND' where LandUse = 'VACANT RES LAND'
+
+-- Setting null to the 'UNKNOWN' city
+-- Configurando null para a cidade 'desconhecida'
