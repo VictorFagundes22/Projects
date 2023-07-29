@@ -1,14 +1,13 @@
 -- Some questions we might have from this cleaned data:
 SELECT * FROM Nashville
-select min(SaleDateConverted), max(SaleDateConverted) from Nashville
 
 -- What is the average SalePrice only for the land?
-SELECT AVG(SalePrice) FROM Nashville where BuildingValue = 0
+SELECT ROUND(AVG(SalePrice),2) FROM Nashville where BuildingValue = 0
 
--- Create the average house with the average of every topic of the building
+-- What is the average house? Including all of the proprierty topics?
 SELECT ROUND(AVG(SalePrice),2) AS AvgSalePrice, ROUND(AVG(Acreage),2) AS AvgAcreage, ROUND(AVG(LandValue),2) AS AvgLandValue, ROUND(AVG(BuildingValue),2) AS AvgBuildingValue, ROUND(AVG(TotalValue),2) AS AvgTotalValue, ROUND(AVG(YearBuilt),2) AS AvgYearBuilt, ROUND(AVG(Bedrooms),2) AS AvgBedrooms, ROUND(AVG(FullBath),2) AS AvgFullBath, ROUND(AVG(HalfBath),2) AS AvgHalfBath FROM Nashville
 
--- Most of the building was sold empty?
+-- Was most of the building sold empty?
 SELECT (SELECT COUNT(*) FROM Nashville WHERE SoldAsVacant = 'NO')-(SELECT COUNT(*) FROM Nashville WHERE SoldAsVacant = 'YES')
 
 -- How many cities have in this dataset?
@@ -30,4 +29,4 @@ SELECT *, (SalePrice - TotalValue) AS Profit FROM Nashville where (SalePrice - T
 SELECT LandUse, COUNT(*) FROM Nashville GROUP BY LandUse ORDER BY 2 DESC
 
 -- The properties that could not be sold with profit, are in average bigger or smaller than that ones that could be sold with profit?
-SELECT (SELECT AVG(Acreage) FROM Nashville WHERE (SalePrice - TotalValue) < 0) as FinancialLoss, (SELECT AVG(Acreage) FROM Nashville WHERE (SalePrice - TotalValue) > 0) as Profit
+SELECT (SELECT ROUND(AVG(Acreage),2) FROM Nashville WHERE (SalePrice - TotalValue) < 0) as FinancialLoss, (SELECT ROUND(AVG(Acreage),2) FROM Nashville WHERE (SalePrice - TotalValue) > 0) as Profit
