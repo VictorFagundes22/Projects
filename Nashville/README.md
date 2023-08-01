@@ -9,5 +9,3 @@
 **3.** Analyze the data making some business questions.
 
 **4.** Make a data visualization using Power BI.
-
-**5.** Use PowerPoint to create a storytelling presentation.
