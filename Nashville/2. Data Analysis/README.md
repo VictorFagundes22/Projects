@@ -1,3 +1,5 @@
+![Banner](Banner.jpg)
+
 # With the data cleanead, we might have some questions:
 
 **1.** What is the average SalePrice only for the land?
